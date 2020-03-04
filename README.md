@@ -14,7 +14,7 @@ fProduceMapOfSite
 ``` 
 is also accompanied by a evaluation of the country and the figure presents a inset map with relative position of the site in the country:
 
-![Image of LTER_EU_IT_045 Lake Maggiore](https://zenodo.org/record/3696893/files/LTER_EU_IT_045.png)
+![Image of LTER_EU_IT_045 Lake Maggiore](https://zenodo.org/record/3696893/files/LTER_EU_IT_045.PNG)
 
 For other eLTER sites the function 
 ```R
