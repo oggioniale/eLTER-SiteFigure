@@ -1,6 +1,14 @@
 ##
 # Data
 ##
+biomeColor <- tibble::tribble(
+  ~geoBonBiome, ~fill, ~border,
+  "marine", "#055ca8", "#057ae1",
+  "coastal", "#43903f", "#5ecc58",
+  "fresh_water_lakes", "#03a3b8", "#04d0eb",
+  "terrestrial", "#b07c03", "#e8a303"
+)
+
 listOfSites <- tibble::tribble(
                              ~name,          ~type,   ~color, ~colorBorder, ~country, ~suffix, ~bboxXMin, ~bboxXMax, ~bboxYMin, ~bboxYMax, ~gridNx, ~gridNy, ~zoomin,
                   # "LTER_EU_IT_102",   "lacustrine", "#03a3b8",     "#04d0eb",  "ITA",      "",         0,         0,         0,         0,    0.28,     0.4, 0,
