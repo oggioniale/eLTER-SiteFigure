@@ -27,9 +27,9 @@ is without country inset map:
 download the code and use in R
 
 ## Meta
-* Please [provide a new manufacturer information by issues](https://github.com/oggioniale/eLTERSiteFigure/issues), or email oggionia.a(at)irea.cnr.it
+* Please [provide a new manufacturer information by issues](https://github.com/oggioniale/eLTER-SiteFigure/issues), or email oggionia.a(at)irea.cnr.it
 * License: The collection is being developed by Alessandro Oggioni ([IREA-CNR](http://www.irea.cnr.it)) 
 ![alt text](https://orcid.org/sites/default/files/images/orcid_16x16(1).gif) [https://orcid.org/0000-0002-7997-219X](https://orcid.org/0000-0002-7997-219X)), and it is released under the [GNU General Public License version 3](https://www.gnu.org/licenses/gpl-3.0.html) (GPL‑3).
-* Get citation information for eLTERSiteFigure
+* Get citation information for eLTER-SiteFigure
 ``` bibtex
 ```
