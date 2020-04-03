@@ -10,15 +10,15 @@ The figure is created with a base map Open Street Map (OSM) (© [OpenStreetMap](
 
 For LTER-Italy sites the function 
 ```R 
-fProduceMapOfSite
+fProduceMapOfSite("https://deims.org/769556a6-0ee6-46a9-acbb-a1f2d51c07e8")
 ``` 
 is also accompanied by a evaluation of the country and the figure presents a inset map with relative position of the site in the country:
 
-![Image of LTER_EU_IT_045 Lake Maggiore](https://zenodo.org/record/3696893/files/LTER_EU_IT_045.png?download=1)
+[Image of LTER_EU_IT_045 Lake Maggiore](https://zenodo.org/record/3696893/files/LTER_EU_IT_045.png)
 
 For other eLTER sites the function 
 ```R
-fProduceMapOfSiteFromDEIMS
+fProduceMapOfSiteFromDEIMS("https://deims.org/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f")
 ``` 
 is without country inset map:
 ...
