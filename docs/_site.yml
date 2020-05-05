@@ -1,0 +1,35 @@
+title: "eLTER_siteFigure function"
+date: April 28, 2020
+author: "Alessandro Oggioni"
+description: ''
+url: https://oggioniale.github.io/eLTER-SiteFigure/
+params:
+  year: 2020
+  region: Europe
+  printcode: TRUE
+output_dir: "."
+navbar:
+  title: "eLTER_siteFigure function"
+  type: inverse
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/oggioniale/eLTER-SiteFigure
+    - icon: ai ai-orcid-square
+      href: https://orcid.org/0000-0002-7997-219X
+    - icon: ai ai-researchgate
+      href: https://www.researchgate.net/profile/Alessandro_Oggioni?ev=hdr_xprf
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
+    toc: true  
+    toc_float: true
+    toc_depth: 3
+    fig_width: 7
+    fig_height: 5
+    dev: png
+    fig_caption: true
+    includes:
+      # in_header: header.html
+      # before_body: doc_prefix.html
+      after_body: doc_suffix.html
