@@ -7,6 +7,7 @@ These R functions allow to create this based on the geographic boundaries entere
 
 The figure is created with a base map Open Street Map (OSM) (© [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors), site boundaries, and title of the site, a resolution of 400px and an PNG extension suitable for both website and publication.
 
+
 ## Prerequisites:
 In this case some packages must by installed:
 
@@ -16,6 +17,7 @@ install.packages('jsonlite')
 ```
 
 More information in [jsonlite wiebsite](https://jeroen.cran.dev/jsonlite/index.html)
+
 Ooms J (2014). “The jsonlite Package: A Practical and Consistent Mapping Between JSON Data and R Objects.” arXiv:1403.2805 [stat.CO]. [arXiv:1403.2805](https://arxiv.org/abs/1403.2805)
 
 ### sf
@@ -24,6 +26,7 @@ install.packages("sf")
 ```
 
 More information in [sf wiebsite](https://r-spatial.github.io/sf/)
+
 Pebesma, E., 2018. Simple Features for R: Standardized Support for Spatial Vector Data. The R Journal 10 (1), 439-446, [DOI:10.32614/RJ-2018-009](https://doi.org/10.32614/RJ-2018-009)
 
 ### rosm
@@ -47,7 +50,9 @@ install.packages("tmap")
 ```
 
 More information in [sf wiebsite](https://r-spatial.github.io/sf/)
+
 Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 84(6), 1-39, [DOI:10.18637/jss.v084.i06](http://dx.doi.org/10.18637/jss.v084.i06)
+
 
 ## Using:
 For all eLTER sites the function 
