@@ -57,16 +57,25 @@ Tennekes, M., 2018, tmap: Thematic Maps in R, Journal of Statistical Software, 8
 ## Using:
 For all eLTER sites the function 
 ```R
-fProduceMapOfSiteFromDEIMS("https://deims.org/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f")
+sitesNetwork <- getNetworkSites(networkID = 'https://deims.org/api/sites?network=7fef6b73-e5cb-4cd2-b438-ed32eb1504b3')
+sitesNetwork <- (sitesNetwork[!grepl('^IT', sitesNetwork$title),])
+fProduceMapOfSiteFromDEIMS(
+  deimsid = 'https://deims.org/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f',
+  countryCode = 'ITA',
+  listOfSites = sitesNetwork,
+  gridNx = 0.7,
+  gridNy = 0.35,
+  width = 0.25,
+  height = 0.25,
+  siteName = 'Lago Maggiore',
+  bboxXMax = 0,
+  bboxXMin = 0,
+  bboxYMin = 0,
+  bboxYMax = 0
+)
 ``` 
-is without country inset map:
-...
 
-For LTER-Italy sites is possible use also this function 
-```R 
-fProduceMapOfSite("https://deims.org/769556a6-0ee6-46a9-acbb-a1f2d51c07e8")
-``` 
-is also accompanied by a evaluation of the country and the figure presents a inset map with relative position of the site in the country:
+is accompanied by a evaluation of the country and the figure presents a inset map with relative position of the site in the country:
 
 [Image of LTER_EU_IT_045 Lake Maggiore](https://zenodo.org/record/3696893/files/LTER_EU_IT_045.png)
 
